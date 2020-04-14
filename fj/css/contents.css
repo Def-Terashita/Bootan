@@ -899,6 +899,7 @@
 .sectionmainview
 {
 	width: 96%;
+	margin: 0 auto;
 	background-image: url(../img/contents_top1.png);
 	background-position: 50% 55%;
 	background-repeat: no-repeat;
