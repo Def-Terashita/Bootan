@@ -70,11 +70,12 @@ if ($ret === FALSE)
 				<div class="section innerspace contentsbox sectionmainview">
 					<div class="mainvisual">
 						<h3 class="mainvisualfont">
-							<span class="mainvisual mainvisualenfont">SERVICE</span>
-							<span class="mainvisual mainvisuallinefont">|</span>
-							<span class="mainvisual mainvisualkanafont">サービス</span>
+							<span class="mainvisual mainvisualenfont">サービス紹介</span>
 						</h3>
-						<span class="mainvisual mainvisualnotefont">ご利用いただける４つのサービス</span>
+							<span class="mainvisual mainvisualnotefont">
+								<p>Bootanは、関西エリアのフリーランスエンジニア向けの案件情報を提供するサービスです。</p>
+								<p>充実なサポートでフリーランスの皆様を支援します。</p>
+							</span>
 					</div>
 				</div>
 
