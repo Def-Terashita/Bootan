@@ -112,15 +112,15 @@ if ($ret === FALSE)
                 <div class="service">
                     <div class="top-img"><img src="<?= Fj_Img ?>support5.png" alt="案件のイメージ画像"></div>
                     <div>
-                        <h3>豊富な案件数</h3>
-                        <p style="word-break:normal;" align="left";>数ある案件数から希望される案件へ案内します。まずはヒアリングにてご相談ください。望んでる案件がきっと見つかります。</p>
+                        <h3>応募</h3>
+                        <p style="word-break:normal;" align="left";>利用の流れ①</p>
                     </div>
                 </div>
                 <div class="service">
                     <div class="top-img"><img src="<?= Fj_Img ?>support2.png" alt="スペシャリストによる支援のイメージ画像"></div>
                     <div>
                         <h3>単価交渉</h3>
-                        <p style="word-break:normal;" align="left";>報酬・サービス利用料をすべて開示！スキルに合った高額報酬を実現します。</p>
+                        <p style="word-break:normal;" align="left";>利用の流れ②</p>
                     </div>
                 </div>
                 <div class="service">
