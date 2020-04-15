@@ -465,6 +465,13 @@ background-color: rgb(88, 175, 197);
     transition: .4s;
 }
 
+.btnpcm
+{
+	display: inline-block;
+	float: right;
+}
+
+
 #navi-sp input
 {
 	margin:3px 10px;
@@ -539,7 +546,6 @@ background-color: rgb(88, 175, 197);
 	{
 	    padding: 2px 15px;
 	    margin: 10px 30px -21px 0;
-	    display: inline-block;
 	}
 
 	.nav .navbtn,	#navi-pc form
@@ -641,13 +647,13 @@ background-color: rgb(88, 175, 197);
 
 	.nav #title
 	{
-		padding-top:8px;
+		padding-top:10px;
 		width:auto;
 	}
 
 	#title img
 	{
-		margin-top:0px;
+		margin-top:-10px;
 	}
 
 	.nav ul
@@ -655,6 +661,12 @@ background-color: rgb(88, 175, 197);
 		padding: 28px 20px 0px 20px;
 	}
 
+	#catchcopy
+	{
+		font-size: 15px;
+		margin-top: 5px;
+		padding-left: 19px;
+	}
 
 }
 

@@ -85,12 +85,15 @@ if (isset ($_SESSION["name"])){
 
 	    <!-- PC・タブレット用ナビゲーション -->
 	    <div id="navi-pc">
+        <div id="catchcopy">
+            <p>フロントエンジニアのための求人サイト</p>
+        </div>
         <div style="width:100%;">
             <div id="title">
               <a href="<?= Fj_Top ?>"><img alt="Bootanのロゴ" src="<?= Fj_Img ?>Bootan横.png" align="left" style="width:100%;"></a>
             </div>
         </div>
-        <div>
+        <div class="btnpcm">
             <?= $headermsg ?>
         </div>
         <div>
@@ -99,6 +102,7 @@ if (isset ($_SESSION["name"])){
           <div>
               <ul id="list">
                   <li><a href="<?= Fj_Top ?>#searchbox"><img alt="仕事を探すの画像" src="<?= Fj_Img ?>h2.png">仕事を探す</a></li>
+                  <li><a href="<?= Fj_FAQ ?>"><img alt="FAQの画像" src="<?= Fj_Img ?>h3.png">FAQ</a></li>
                   <li><a href="<?= Fj_Form ?>"><img alt="お問い合わせの画像" src="<?= Fj_Img ?>h4.png">お問い合わせ</a></li>
               </ul>
           </div>
