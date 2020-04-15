@@ -73,8 +73,7 @@ if ($ret === FALSE)
 							<span class="mainvisual mainvisualenfont">サービス紹介</span>
 						</h3>
 							<span class="mainvisual mainvisualnotefont">
-								<p>Bootanは、関西エリアのフリーランスエンジニア向けの案件情報を提供するサービスです。</p>
-								<p>充実なサポートでフリーランスの皆様を支援します。</p>
+								<p>Bootanでは、充実のサポートでフリーランスの皆様を支援します。</p>
 							</span>
 					</div>
 				</div>
