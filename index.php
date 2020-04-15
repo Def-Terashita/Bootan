@@ -96,10 +96,9 @@ if ($ret === FALSE)
 
         <!-- メイン1 -->
             <div class="top-main top-innerspace">
-            	<h2 style="text-align: center">Bootanではフロントエンドに特化した案件情報を記載</h2>
-            	<h2 style="text-align: center">スキル・希望にマッチした案件を提案</h2>
-                <h2 style="text-align: center">SERVICE | サービス内容</h2>
-                <p  style="text-align: center">- 充実のサポートでフリーランスの方をバックアップします -</p>
+            	<h2 style="text-align: center">Bootanとは</h2>
+                <p  style="text-align: center"><span class="toptext">Bootanは、関西エリアのJavaScript・HTMLの求人・案件情報提供サイトです。</span></p>
+                <p  style="text-align: center"><span class="toptext">フリーランスの皆様のスキル・希望にマッチした案件を提案します。</span></p>
 
                 <div>
                 <a href="<?= Fj_NewMember ?>" class="btn-space btn registbtn bg-red color-white">
