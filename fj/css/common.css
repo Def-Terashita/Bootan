@@ -538,7 +538,8 @@ background-color: rgb(88, 175, 197);
 	.nav .navbtn, #login-msg input/*ヘッダーボタン*/
 	{
 	    padding: 2px 15px;
-	    margin: 9px 30px -21px 0;
+	    margin: 10px 30px -21px 0;
+	    display: inline-block;
 	}
 
 	.nav .navbtn,	#navi-pc form
@@ -646,7 +647,7 @@ background-color: rgb(88, 175, 197);
 
 	#title img
 	{
-		margin-top:-13px;
+		margin-top:0px;
 	}
 
 	.nav ul
