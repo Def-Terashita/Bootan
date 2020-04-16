@@ -65,9 +65,9 @@ if ($ret === FALSE)
 							<div class="section innerspace contentsbox sectionmainview">
 					<div class="mainvisual">
 						<h3 class="mainvisualfont">
-							<span class="mainvisual mainvisualenfont">VOICE</span>
+							<span class="mainvisual mainvisualenfont">ご利用者様の声</span>
 						</h3>
-						<span class="mainvisual mainvisualnotefont">ユーザー様からの声</span>
+						<span class="mainvisual mainvisualnotefont">Bootanをご利用いただいた方の声をご紹介いたします。</span>
 					</div>
 				</div>
 
