@@ -301,8 +301,6 @@ if (isset($_POST["return"]))
 				<div class="section innerspace contentsbox sectionmainview">
 					<div class="mainvisual">
 						<h3 class="mainvisualfont">
-							<span class="mainvisual mainvisualenfont">SIGN UP</span>
-							<span class="mainvisual mainvisuallinefont">|</span>
 							<span class="mainvisual mainvisualkanafont">新規会員登録</span>
 						</h3>
 						<span class="mainvisual mainvisualnotefont">豊富な案件をご紹介いたします</span>
