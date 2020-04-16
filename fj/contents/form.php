@@ -222,11 +222,9 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST" && isset($_POST["check"]))
 				<div class="section innerspace contentsbox sectionmainview">
 					<div class="mainvisual">
 						<h3 class="mainvisualfont">
-							<span class="mainvisual mainvisualenfont">CONTACT</span>
-							<span class="mainvisual mainvisuallinefont">|</span>
 							<span class="mainvisual mainvisualkanafont">お問い合わせ</span>
 						</h3>
-						<span class="mainvisual mainvisualnotefont">TEL:06-6643-9305</span>
+						<span class="mainvisual mainvisualnotefont">下記のフォームに記入の上ご送信ください。</span>
 					</div>
 				</div>
 
