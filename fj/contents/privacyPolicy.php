@@ -74,8 +74,8 @@ if ($ret === FALSE)
 					<div class="mainvisual">
 						<h3 class="mainvisualfont">
 							<span class="mainvisual mainvisualenfont">プライバシーポリシー</span>
-                            <span class="mainvisual mainvisualnotefont">個人情報保護方針</span>
 						</h3>
+                        <span class="mainvisual mainvisualnotefont">個人情報保護方針</span>
 					</div>
 				</div>
 
