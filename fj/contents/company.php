@@ -71,11 +71,9 @@ if ($ret === FALSE)
 				<div class="section innerspace contentsbox sectionmainview">
 					<div class="mainvisual">
 						<h3 class="mainvisualfont">
-							<span class="mainvisual mainvisualenfont">COMPANY</span>
-							<span class="mainvisual mainvisuallinefont">|</span>
 							<span class="mainvisual mainvisualkanafont">会社概要</span>
 						</h3>
-						<span class="mainvisual mainvisualnotefont">Bootanのポリシー</span>
+						<span class="mainvisual mainvisualnotefont">Bootanの運営会社をご紹介いたします。</span>
 					</div>
 				</div>
 
