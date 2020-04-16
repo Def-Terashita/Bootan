@@ -73,9 +73,8 @@ if ($ret === FALSE)
 				<div class="section innerspace contentsbox sectionmainview">
 					<div class="mainvisual">
 						<h3 class="mainvisualfont">
-							<span class="mainvisual mainvisualenfont">PRIVACY POLICY</span>
+							<span class="mainvisual mainvisualenfont">個人情報保護方針</span>
 						</h3>
-						<span class="mainvisual mainvisualnotefont">個人情報保護方針</span>
 					</div>
 				</div>
 
