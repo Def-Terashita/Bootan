@@ -72,10 +72,8 @@ if ($ret === FALSE)
 					<div class="mainvisual">
 						<h3 class="mainvisualfont">
 							<span class="mainvisual mainvisualenfont">FAQ</span>
-							<span class="mainvisual mainvisuallinefont">|</span>
-							<span class="mainvisual mainvisualkanafont">よくあるご質問</span>
 						</h3>
-						<span class="mainvisual mainvisualnotefont">サービス全般に関するよくあるご質問</span>
+						<span class="mainvisual mainvisualnotefont">サービス全般に関するよくあるご質問にお答えいたします。</span>
 					</div>
 				</div>
 
