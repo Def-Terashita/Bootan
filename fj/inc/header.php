@@ -84,7 +84,7 @@ if (isset ($_SESSION["name"])){
 	    <!-- スマホ用ここまで -->
 
 	    <!-- PC・タブレット用ナビゲーション -->
-	    <div id="navi-pc">
+	    <div id="navi-pc" class="nav-fixed">
         <div id="catchcopy">
             <p>フロントエンジニアのための求人サイト</p>
         </div>

@@ -7,13 +7,13 @@
 /*--------------------------------------------------*/
 h2
 {
-	font-size: 2.0em;
-	color: #CC0000;
+    font-size: 2.0em;
+    color: #CC0000;
 }
 
 #mainwrap p span
 {
-	font-size: 1.4em;
+    font-size: 1.4em;
 }
 
 #mainwrap
@@ -235,7 +235,7 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
 
 .top-main
 {
-	margin:20px auto;
+	margin:0px auto;
 }
 
 .service
@@ -313,7 +313,7 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
 {
 	.top-main
 	{
-		margin:50px auto;
+		margin:0px auto;
 	}
 
 	#top-main-pc
@@ -328,7 +328,7 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
 
 	.top-innerspace
 	{
-	    padding: 60px 24px;
+	    padding: 140px 24px;
 	}
 
 	.top-catch-sub
