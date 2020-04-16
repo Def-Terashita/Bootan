@@ -75,7 +75,7 @@ if ($ret === FALSE)
 							<span class="mainvisual mainvisualenfont">コーディネーター
 									</span>
 						</h3>
-						<span class="mainvisual mainvisualnotefont">担当者紹介</span>
+						<span class="mainvisual mainvisualnotefont">フリーランスの皆様をサポートする担当者をご紹介いたします。</span>
 					</div>
 				</div>
 
