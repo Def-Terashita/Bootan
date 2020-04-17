@@ -769,6 +769,12 @@ footer
 		margin-bottom: 20px;
 		text-align: right;
 	}
+	
+	#footer-snsimg
+	{
+		margin-right: 20px;
+		float:left;
+	}
 
 	#adress
 	{
