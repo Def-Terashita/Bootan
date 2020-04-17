@@ -257,19 +257,6 @@ background-color: rgb(88, 175, 197);
 
 /*--------------------------------------------------*/
 /* ページ全体 */
-/*↓モバイル～すべてのデバイスで共通の設定↓*/
-/*--------------------------------------------------*/
-#mainwrap
-{
-	width:100%;
-	background-image:url(../img/content_bg.png);
-	background-position:center;
-	background-repeat:no-repeat;
-	-moz-background-size:cover;
-	background-size:cover;
-}
-/*--------------------------------------------------*/
-/* ページ全体 */
 /*↓タブレット用の追加・変更デザイン↓*/
 /*--------------------------------------------------*/
 @media screen and (min-width:768px)
@@ -768,6 +755,12 @@ footer
 	{
 		margin-bottom: 20px;
 		text-align: right;
+	}
+	
+	#footer-snsimg
+	{
+		margin-right: 20px;
+		float:left;
 	}
 
 	#adress
