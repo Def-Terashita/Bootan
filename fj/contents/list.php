@@ -695,9 +695,9 @@ function newStamp($post_date){
 							<div class="section innerspace contentsbox sectionmainview">
 					<div class="mainvisual">
 						<h3 class="mainvisualfont">
-							<span class="mainvisual mainvisualenfont">PROJECT-LIST</span>
+							<span class="mainvisual mainvisualenfont">案件情報</span>
 						</h3>
-						<span class="mainvisual mainvisualnotefont">案件情報一覧</span>
+						<span class="mainvisual mainvisualnotefont">Bootanでは、関西エリアの求人・案件情報を提供しています</span>
 					</div>
 				</div>
 
