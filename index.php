@@ -182,7 +182,6 @@ if ($ret === FALSE)
 			<!-- メイン１ -->
 			<div id="top-bg" style="padding-top: 60px">
 				<div class="color-white top-catch"  id="top-catch-serch">
-    				<img src="<?= Fj_Img ?>searchmark.png">
     				<div class="top-catch-main">Search</div>
 				</div>
 
@@ -192,10 +191,10 @@ if ($ret === FALSE)
         				<div class="innerspace" style="text-align: left">
 
     						<div class="search-clear-btn-wrap">
-        						<input type="button" value="検索条件をリセット" class="btn clear-btn bg-white color-bluegreen" onclick="allclear(false);">
+        						<input type="button" value="検索条件をリセット" class="btn clear-btn bg-red color-white" onclick="allclear(false);">
         					</div>
 
-        					<div class="search-title bg-bluegray">エリア</div>
+        					<div class="search-title bg-red">エリア</div>
         					<div style="margin-bottom:20px;">
         						<input type="checkbox" name="area_no[]" value="<?= Osaka ?>" id="Osaka" />
                                 <label for="Osaka" class="check_css">大阪</label>
@@ -222,7 +221,7 @@ if ($ret === FALSE)
 
         				</div>
 
-    					<button class="reset-btn searchbtn bg-yellow color-white" type="submit" name="submit">
+    					<button class="reset-btn searchbtn bg-red color-white" type="submit" name="submit">
     						<span class="searcharrow">検索</span><span class="searcharrow2"></span><span class="searcharrow2"></span><span class="searcharrow3">求人をCHECK!!</span>
     					</button>
 
