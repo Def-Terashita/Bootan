@@ -905,13 +905,8 @@
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
 	background-size: cover;
-<<<<<<< HEAD
 	padding: 4vw 0;
-	padding-top:140px;
-=======
-	padding: 200px 0 60px 0;
-
->>>>>>> bfd7a661e6326160ed3ac07f7ad07d9ff8661fdb
+    padding: 200px 0 60px 0;
 }
 
 .mainvisual
