@@ -109,28 +109,28 @@ if ($ret === FALSE)
             　　</div>
 
                 <div class="service">
-                    <div class="top-img"><img src="<?= Fj_Img ?>support5.png" alt="案件のイメージ画像"></div>
+                    <div class="top-img"><img src="<?= Fj_Img ?>応募のイメージ.jpg" alt="応募" width = "300" height = "200"></div>
                     <div>
                         <h3>応募</h3>
-                        <p style="word-break:normal;" align="left";>利用の流れ①</p>
+                        <p style="word-break:normal;" align="left";>ご希望の案件を検索し、応募しましょう！</p>
                     </div>
                 </div>
                 <div class="service">
-                    <div class="top-img"><img src="<?= Fj_Img ?>support2.png" alt="スペシャリストによる支援のイメージ画像"></div>
+                    <div class="top-img"><img src="<?= Fj_Img ?>面談のイメージ.jpg" alt="面談のイメージ画像" width = "300" height ="200"></div>
                     <div>
-                        <h3>単価交渉</h3>
-                        <p style="word-break:normal;" align="left";>利用の流れ②</p>
+                        <h3>面談</h3>
+                        <p style="word-break:normal;" align="left";>ご希望の案件が見つかりましたか？見つかったのであれば、私たちがこれからのことについてサポートとして面談を行います！</p>
                     </div>
                 </div>
                 <div class="service">
-                    <div class="top-img"><img src="<?= Fj_Img ?>support3.png" alt="成長のイメージ画像"></div>
+                    <div class="top-img"><img src="<?= Fj_Img ?>応募の面談.jpg" alt="成長のイメージ画像" width="300" height = "200"></div>
                     <div>
                         <h3>初めてのエンジニアも</h3>
                         <p style="word-break:normal;" align="left";>当社では、経験の浅いエンジニアにも豊富に案件をご紹介しております。様々な案件の中で経験を積むことで成長を実感していただけます。</p>
                     </div>
                 </div>
                 <div class="service">
-                    <div class="top-img"><img src="<?= Fj_Img ?>support4.png" alt="コンサルティングのイメージ画像"></div>
+                    <div class="top-img"><img src="<?= Fj_Img ?>参画のイメージ.jpg" alt="参画のイメージ画像" width = "300" height ="200"></div>
                     <div>
                         <h3>労務サービス</h3>
                         <p style="word-break:normal;" align="left";>転職、フリーランス活動、独立をお考えの方に対して保険関係、就職助成金関係その他以外に手間がかかることが多々あるかと思います。もちろん初めての方はどうすれば良いか、本当に手続きの流れは合っているのか、より良い手続きの仕方など労務に関する様々なご提案をさせていただくことが可能です。</p>
@@ -145,20 +145,19 @@ if ($ret === FALSE)
 			<!-- メイン３ -->
 			<div class="section innerspace contentsbox descriptionboxwrap">
 				<div class="descriptionbox descriptionimageright">
-					<div class="descriptionimagebox">
-						<img class="descriptionimage" src="<?= Fj_Img ?>support1.png" alt="豊富な案件のイメージ画像">
-					</div>
 					<div class="descriptiontextbox">
 						<h3 class="descriptiontextheadline">
 							<span class="headline">
-								<span class="headlinekanafont">Project | 関西の案件に強い</span>
+								<span class="headlinekanafont">口コミ</span>
 							</span>
 						</h3>
 						<div class="descriptiontext">
-							<p>弊社では営業を強化することにより、常に迅速にご希望に近い案件をご提案できるよう努めると同時に、事情により常駐出来ない技術者様に対し、在宅の案件もご紹介させていただいております。</p>
+						<div class="top-img"><img src="<?= Fj_Img ?>口コミのイメージ.jpg" alt="口コミのイメージ画像" width = "300" height ="200"></div>
+                    	<div>
+							<p>抜粋した口コミ</p>
 						</div>
 						<div class="projectbtn-space projectbtn bg-yellow">
-    						<a href="#top-bg" class="color-white">求人をCHECK!!</a>
+    						<a href="#top-bg" class="color-white">ほかの口コミを見る</a>
     					</div>
 					</div>
 				</div>
@@ -167,17 +166,6 @@ if ($ret === FALSE)
 
 
 
-			<!-- メイン４ -->
-			<div class="top-main top-innerspace top-main-end">
-				<div id ="top-form">
-					<div>
-						<img src="<?= Fj_Img ?>form.png" alt="お問合せフローのイメージ画像">
-					</div>
-
-
-					
-				</div>
-			</div>
 
 			<!-- メイン１ -->
 			<div id="top-bg" style="padding-top: 60px">
