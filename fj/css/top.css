@@ -54,20 +54,12 @@ h2
 }
 
 
-#top-bg
-{
-	background-image: url('../img/topbg.png');
-	background-size: cover;
-	background-position: center;
-	width:100%;
-    padding-bottom: 50px;
-}
 .top-catch
 {
-	margin-bottom:50px;
 	text-align: center;
 	font-weight:bolder;
     letter-spacing: 2px;
+    padding-top: 240px;
 }
 
 .top-catch-sub
@@ -290,7 +282,7 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
 
 .clear-btn
 {
-    border: solid 2px #009999;
+    border: solid 2px rgb(202, 32, 40);
 }
 
 .clear-btn:hover
@@ -340,6 +332,7 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
 	.top-catch-main
 	{
 		font-size:3.5em;
+		color: rgb(202, 32, 40);
 	}
 
 	#top-bg
