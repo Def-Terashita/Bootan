@@ -146,20 +146,13 @@ if ($ret === FALSE)
                 </form>
             </div>
 
-        <!-- メイン1 -->
+        <!-- メイン２ -->
             <div class="top-main top-innerspace">
             	<h2 style="text-align: center">Bootanとは</h2>
                 <p  style="text-align: center"><span class="toptext">Bootanは、関西エリアのJavaScript・HTMLの求人・案件情報提供サイトです。</span></p>
                 <p  style="text-align: center"><span class="toptext">フリーランスの皆様のスキル・希望にマッチした案件を提案します。</span></p>
 
-                <div>
-                <a href="<?= Fj_NewMember ?>" class="btn-space btn registbtn bg-red color-white">
-                    <div class="registbtntext">
-                        無料登録
-                    </div>
-                </a>
-            　　</div>
-
+        <!-- メイン３ -->
                 <div class="service">
                     <div class="top-img"><img src="<?= Fj_Img ?>応募のイメージ.jpg" alt="応募" width = "300" height = "200"></div>
                     <div>
@@ -194,7 +187,7 @@ if ($ret === FALSE)
             
 
 
-			<!-- メイン３ -->
+			<!-- メイン４ -->
 			<div class="section innerspace contentsbox descriptionboxwrap">
 				<div class="descriptionbox descriptionimageright">
 					<div class="descriptiontextbox">
