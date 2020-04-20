@@ -255,6 +255,14 @@ background-color: rgb(88, 175, 197);
     z-index: 3;
 }
 
+#mainwrap
+{
+	background-color:#f8f8f8;
+	background-position:center;
+	background-repeat:no-repeat;
+	-moz-background-size:cover;
+	background-size:cover;
+}
 /*--------------------------------------------------*/
 /* ページ全体 */
 /*↓タブレット用の追加・変更デザイン↓*/
