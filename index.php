@@ -94,6 +94,57 @@ if ($ret === FALSE)
 
         <div id="mainwrap">
 
+            <!-- メイン１ -->
+            <div id="top-bg" style="padding-top: 60px">
+                <div class="color-white top-catch"  id="top-catch-serch">
+                    <div class="top-catch-main">Search</div>
+                </div>
+
+                <form action="<?= Fj_List ?>" method="post" name="searchform">
+                    <div class="searchbox bg-white" id="searchbox">
+                        <!-- 検索バー -->
+                        <div class="innerspace" style="text-align: left">
+
+                            <div class="search-clear-btn-wrap">
+                                <input type="button" value="検索条件をリセット" class="btn clear-btn bg-red color-white" onclick="allclear(false);">
+                            </div>
+
+                            <div class="search-title bg-red">エリア</div>
+                            <div style="margin-bottom:20px;">
+                                <input type="checkbox" name="area_no[]" value="<?= Osaka ?>" id="Osaka" />
+                                <label for="Osaka" class="check_css">大阪</label>
+                                <input type="checkbox" name="area_no[]" value="<?= Kyoto ?>" id="Kyoto" />
+                                <label for="Kyoto" class="check_css">京都</label>
+                                <input type="checkbox" name="area_no[]" value="<?= Nara ?>" id="Nara" />
+                                <label for="Nara" class="check_css">奈良</label>
+                                <input type="checkbox" name="area_no[]" value="<?= Wakayama ?>" id="Wakayama" />
+                                <label for="Wakayama" class="check_css">和歌山</label>
+                                <input type="checkbox" name="area_no[]" value="<?= Hyogo ?>" id="Hyogo" />
+                                <label for="Hyogo" class="check_css">兵庫</label>
+                                <input type="checkbox" name="area_no[]" value="<?= Shiga ?>" id="Shiga" />
+                                <label for="Shiga" class="check_css">滋賀</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="keyword[]" value="<?= JavaScript ?>" id="JavaScript" checked="checked"/ >
+                                <label for="JavaScript" class="checkbox_hidden"></label>
+                                <input type="checkbox" name="keyword[]" value="<?= HTML ?>" id="HTML" checked="checked" />
+                                <label for="HTML" class="checkbox_hidden"></label>
+
+                            <div  style="margin-top:20px;">
+                                <input type="text" value="" name="freeword" placeholder="フリーワード検索（例：Java 大阪市）" class="freeword">
+                            </div>
+
+                        </div>
+
+                        <button class="reset-btn searchbtn bg-red color-white" type="submit" name="submit">
+                            <span class="searcharrow">検索</span><span class="searcharrow2"></span><span class="searcharrow2"></span><span class="searcharrow3">求人をCHECK!!</span>
+                        </button>
+
+                    </div>
+
+                </form>
+            </div>
+
         <!-- メイン1 -->
             <div class="top-main top-innerspace">
             	<h2 style="text-align: center">Bootanとは</h2>
@@ -178,58 +229,6 @@ if ($ret === FALSE)
 					
 				</div>
 			</div>
-
-			<!-- メイン１ -->
-			<div id="top-bg" style="padding-top: 60px">
-				<div class="color-white top-catch"  id="top-catch-serch">
-    				<div class="top-catch-main">Search</div>
-				</div>
-
-				<form action="<?= Fj_List ?>" method="post" name="searchform">
-    				<div class="searchbox bg-white" id="searchbox">
-                        <!-- 検索バー -->
-        				<div class="innerspace" style="text-align: left">
-
-    						<div class="search-clear-btn-wrap">
-        						<input type="button" value="検索条件をリセット" class="btn clear-btn bg-red color-white" onclick="allclear(false);">
-        					</div>
-
-        					<div class="search-title bg-red">エリア</div>
-        					<div style="margin-bottom:20px;">
-        						<input type="checkbox" name="area_no[]" value="<?= Osaka ?>" id="Osaka" />
-                                <label for="Osaka" class="check_css">大阪</label>
-                                <input type="checkbox" name="area_no[]" value="<?= Kyoto ?>" id="Kyoto" />
-                                <label for="Kyoto" class="check_css">京都</label>
-                                <input type="checkbox" name="area_no[]" value="<?= Nara ?>" id="Nara" />
-                                <label for="Nara" class="check_css">奈良</label>
-                                <input type="checkbox" name="area_no[]" value="<?= Wakayama ?>" id="Wakayama" />
-                                <label for="Wakayama" class="check_css">和歌山</label>
-                                <input type="checkbox" name="area_no[]" value="<?= Hyogo ?>" id="Hyogo" />
-                                <label for="Hyogo" class="check_css">兵庫</label>
-                                <input type="checkbox" name="area_no[]" value="<?= Shiga ?>" id="Shiga" />
-                                <label for="Shiga" class="check_css">滋賀</label>
-        					</div>
-        					<div>
-                                <input type="checkbox" name="keyword[]" value="<?= JavaScript ?>" id="JavaScript" checked="checked"/ >
-                                <label for="JavaScript" class="checkbox_hidden"></label>
-                                <input type="checkbox" name="keyword[]" value="<?= HTML ?>" id="HTML" checked="checked" />
-                                <label for="HTML" class="checkbox_hidden"></label>
-
-        					<div  style="margin-top:20px;">
-        						<input type="text" value="" name="freeword" placeholder="フリーワード検索（例：Java 大阪市）" class="freeword">
-        					</div>
-
-        				</div>
-
-    					<button class="reset-btn searchbtn bg-red color-white" type="submit" name="submit">
-    						<span class="searcharrow">検索</span><span class="searcharrow2"></span><span class="searcharrow2"></span><span class="searcharrow3">求人をCHECK!!</span>
-    					</button>
-
-    				</div>
-
-				</form>
-			</div>
-
 
  		</div>
 
