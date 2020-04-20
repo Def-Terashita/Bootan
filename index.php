@@ -230,18 +230,6 @@ if ($ret === FALSE)
 				</form>
 			</div>
 
-            
-
-            <div>
-                <a href="<?= Fj_Form ?>" class="btn-space btn registbtn bg-red color-white">
-                    <div class="registbtntext">
-                        お問い合わせはコチラ
-                    </div>
-                    <div class="registbtnnote">
-                    豊富な案件数からあなたに合ったJOBをお届け！
-                </div>
-                </a>
-            </div>
 
  		</div>
 
