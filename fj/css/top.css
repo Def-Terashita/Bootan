@@ -5,10 +5,19 @@
 /*--------------------------------------------------*/
 /*↓モバイル～すべてのデバイスで共通の設定↓*/
 /*--------------------------------------------------*/
+
+h1
+{
+    font-size: 2.0em;
+    color: #CC0000;
+    padding: 100px 0 40px 0;
+}
+
 h2
 {
     font-size: 2.0em;
     color: #CC0000;
+    padding: 100px 0 40px 0;
 }
 
 #mainwrap p span
@@ -59,7 +68,6 @@ h2
 	text-align: center;
 	font-weight:bolder;
     letter-spacing: 2px;
-    padding-top: 240px;
 }
 
 .top-catch-sub
@@ -320,7 +328,7 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
 
 	.top-innerspace
 	{
-	    padding: 140px 24px;
+	    padding: 140px 140px 0 140px;
 	}
 
 	.top-catch-sub
