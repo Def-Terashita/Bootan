@@ -95,7 +95,45 @@ if ($ret === FALSE)
 
         <div id="mainwrap">
 
-            <!-- メイン１ -->
+        <!-- メイン１ -->
+            <div class="top-main top-innerspace">
+            	<h2 style="text-align: center">Bootanとは</h2>
+                <p  style="text-align: center"><span class="toptext">Bootanは、関西エリアのJavaScript・HTMLの求人・案件情報提供サイトです。</span></p>
+                <p  style="text-align: center"><span class="toptext">フリーランスの皆様のスキル・希望にマッチした案件を提案します。</span></p>
+
+        <!-- メイン２ -->
+                <div class="service">
+                    <div class="top-img"><img src="<?= Fj_Img ?>応募のイメージ.jpg" alt="応募" width = "300" height = "200"></div>
+                    <div>
+                        <h3>応募</h3>
+                        <p style="word-break:normal;" align="left";>ご希望の案件を検索し、応募しましょう！</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="top-img"><img src="<?= Fj_Img ?>面談のイメージ.jpg" alt="面談のイメージ画像" width = "300" height ="200"></div>
+                    <div>
+                        <h3>面談</h3>
+                        <p style="word-break:normal;" align="left";>ご希望の案件が見つかりましたか？見つかったのであれば、私たちがこれからのことについてサポートとして面談を行います！</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="top-img"><img src="<?= Fj_Img ?>応募の面談.jpg" alt="成長のイメージ画像" width="300" height = "200"></div>
+                    <div>
+                        <h3>初めてのエンジニアも</h3>
+                        <p style="word-break:normal;" align="left";>当社では、経験の浅いエンジニアにも豊富に案件をご紹介しております。様々な案件の中で経験を積むことで成長を実感していただけます。</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="top-img"><img src="<?= Fj_Img ?>参画のイメージ.jpg" alt="参画のイメージ画像" width = "300" height ="200"></div>
+                    <div>
+                        <h3>労務サービス</h3>
+                        <p style="word-break:normal;" align="left";>転職、フリーランス活動、独立をお考えの方に対して保険関係、就職助成金関係その他以外に手間がかかることが多々あるかと思います。もちろん初めての方はどうすれば良いか、本当に手続きの流れは合っているのか、より良い手続きの仕方など労務に関する様々なご提案をさせていただくことが可能です。</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+                        <!-- メイン３ -->
             <div id="top-bg" style="padding-top: 60px">
                 <div class="color-white top-catch"  id="top-catch-serch">
                     <div class="top-catch-main">Search</div>
@@ -144,48 +182,7 @@ if ($ret === FALSE)
                     </div>
 
                 </form>
-            </div>
-
-        <!-- メイン２ -->
-            <div class="top-main top-innerspace">
-            	<h2 style="text-align: center">Bootanとは</h2>
-                <p  style="text-align: center"><span class="toptext">Bootanは、関西エリアのJavaScript・HTMLの求人・案件情報提供サイトです。</span></p>
-                <p  style="text-align: center"><span class="toptext">フリーランスの皆様のスキル・希望にマッチした案件を提案します。</span></p>
-
-        <!-- メイン３ -->
-                <div class="service">
-                    <div class="top-img"><img src="<?= Fj_Img ?>応募のイメージ.jpg" alt="応募" width = "300" height = "200"></div>
-                    <div>
-                        <h3>応募</h3>
-                        <p style="word-break:normal;" align="left";>ご希望の案件を検索し、応募しましょう！</p>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="top-img"><img src="<?= Fj_Img ?>面談のイメージ.jpg" alt="面談のイメージ画像" width = "300" height ="200"></div>
-                    <div>
-                        <h3>面談</h3>
-                        <p style="word-break:normal;" align="left";>ご希望の案件が見つかりましたか？見つかったのであれば、私たちがこれからのことについてサポートとして面談を行います！</p>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="top-img"><img src="<?= Fj_Img ?>応募の面談.jpg" alt="成長のイメージ画像" width="300" height = "200"></div>
-                    <div>
-                        <h3>初めてのエンジニアも</h3>
-                        <p style="word-break:normal;" align="left";>当社では、経験の浅いエンジニアにも豊富に案件をご紹介しております。様々な案件の中で経験を積むことで成長を実感していただけます。</p>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="top-img"><img src="<?= Fj_Img ?>参画のイメージ.jpg" alt="参画のイメージ画像" width = "300" height ="200"></div>
-                    <div>
-                        <h3>労務サービス</h3>
-                        <p style="word-break:normal;" align="left";>転職、フリーランス活動、独立をお考えの方に対して保険関係、就職助成金関係その他以外に手間がかかることが多々あるかと思います。もちろん初めての方はどうすれば良いか、本当に手続きの流れは合っているのか、より良い手続きの仕方など労務に関する様々なご提案をさせていただくことが可能です。</p>
-                    </div>
-                </div>
-                <div class="clear"></div>
-            </div>
-
-            
-
+            </div>    
 
 			<!-- メイン４ -->
 			<div class="section innerspace contentsbox descriptionboxwrap">
