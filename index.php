@@ -100,42 +100,34 @@ if ($ret === FALSE)
             	   <h1 style="text-align: center">Bootanについて</h1>
                     <p  style="text-align: center"><span class="toptext">Bootanは、関西エリアのJavaScript・HTMLの求人・案件情報提供サイトです。</span></p>
                     <p  style="text-align: center"><span class="toptext">フリーランスの皆様のスキル・希望にマッチした案件を提案します。</span></p>
-
-        <!-- メイン２ -->
-                <h2 style="text-align: center">ご利用の流れ</h2>
-                <div class="service">
-                    <div class="top-img"><img src="<?= Fj_Img ?>mail.png" alt="応募" width = "50" height = "50"></div>
-                    <div>
-                        <h3>１．お申込み</h3>
-                        <p style="word-break:normal;" align="left";>メールフォームよりお申込みください。弊社より折り返しご連絡いたします。</p>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="top-img"><img src="<?= Fj_Img ?>mendan1.png" alt="面談のイメージ画像" width = "50" height ="50"></div>
-                    <div>
-                        <h3>２．面談</h3>
-                        <p style="word-break:normal;" align="left";>専任のコーディネーターがあなたの転職プランをご提案いたします。</p>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="top-img"><img src="<?= Fj_Img ?>syokai.png" alt="成長のイメージ画像" width="50" height = "50"></div>
-                    <div>
-                        <h3>３．案件の紹介</h3>
-                        <p style="word-break:normal;" align="left";>豊富な案件情報からあなたの能力やキャリアにふさわしい企業をご紹介いたします。</p>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="top-img"><img src="<?= Fj_Img ?>mendan2.png" alt="参画のイメージ画像" width = "50" height ="50"></div>
-                    <div>
-                        <h3>４．応募の面接</h3>
-                        <p style="word-break:normal;" align="left";>応募、選考状況の確認、面談の日程調整などコーディネーターがすべて行います。制作時期の調整、条件の確認など制作までの下がれを徹底サポートします</p>
-                    </div>
-                </div>
-                <div class="clear"></div>
             </div>
 
+        <!-- メイン２ -->
+            <div class="top-main top-innerspace">
+                <h1 style="text-align: center">ご利用の流れ</h1>
+                    <div class="service">
+                        <p class="feature-number">01</p>
+                        <h3>お申込み</h3>
+                        <p style="word-break:normal;" align="left";>メールフォームよりお申込みください。弊社より折り返しご連絡いたします。</p>
+                    </div>
+                    <div class="service">
+                        <p class="feature-number">02</p>
+                        <h3>面談</h3>
+                        <p style="word-break:normal;" align="left";>専任のコーディネーターがあなたの転職プランをご提案いたします。</p>
+                    </div>
+                    <div class="service">
+                        <p class="feature-number">03</p>
+                        <h3>案件の紹介</h3>
+                        <p style="word-break:normal;" align="left";>豊富な案件情報からあなたの能力やキャリアにふさわしい企業をご紹介いたします。</p>
+                    </div>
+                    <div class="service">
+                        <p class="feature-number">04</p>
+                        <h3>応募の面接</h3>
+                        <p style="word-break:normal;" align="left";>応募、選考状況の確認、面談の日程調整などコーディネーターがすべて行います。制作時期の調整、条件の確認など制作までの下がれを徹底サポートします</p>
+                    </div>
+                <div class="clear"></div>
+            </div>
                         <!-- メイン３ -->
-            <div id="top-bg" style="padding-top: 60px">
                 <div class="color-white top-catch"  id="top-catch-serch">
                     <div class="top-catch-main">Search</div>
                 </div>
