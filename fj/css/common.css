@@ -1019,12 +1019,13 @@ footer
 /* 豊富な案件＆サービスページイメージボックス */
 .descriptionboxwrap
 {
+	
 	box-sizing: border-box;
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-	margin: 1em;
-	background-color: white;
+	padding: 60px 0;
+
 }
 
 .descriptionboxwrap *
