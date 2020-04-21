@@ -46,7 +46,7 @@ if ($ret === FALSE)
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="<?= Fj_GooglAnalytics_async ?>"></script>
 	<script src="<?= Fj_GooglAnalytics ?>"></script>
-	
+
 </head>
 
 
@@ -80,23 +80,30 @@ if ($ret === FALSE)
 				</div>
 
 				<!-- SERVICE1 -->
-				<div class="section innerspace contentsbox descriptionboxwrap">
+        <div class="section innerspace contentsbox descriptionboxwrap">
 					<div class="descriptionbox descriptionimageleft">
 						<div class="descriptionimagebox">
-							<img class="descriptionimage" src="<?= Fj_Img ?>service1.jpg" alt="SERVICE1">
+							<img class="descriptionimage" src="<?= Fj_Img ?>松村さん.jpg" alt="松村さん写真">
 						</div>
 						<div class="descriptiontextbox">
 							<div class="descriptiontext">
-								<p>営業担当：河野</p>
+								<p>営業担当：松村</p>
 								<hr>
 							</div>
 							<div class="descriptiontextleft">
-								<p>専属の税理士を抱えております。フリーの方が安心して、就業できるように、税務関係のプロフェッションナルをご紹介しております。サービス内容に応じて、予算も変わってきますので、気兼ねなく、ご相談ください。毎月の顧問～確定申告のみの依頼も可能です。</p>
+								<p>人間関係、お仕事関係、職場環境どんな些細な事でも相談して頂けるように心掛けています。
+                <br>「残業して夜遅いから」「打ち合わせとかで忙しいかな」「土曜日は電話しない方がいいかな」そんな心配は一切無用です。電話で伝えたい時に相談できるからこそ私の存在価値があります。「今後AIに携わりたい」「ゲームを作りたい」などのご自身の希望もお伝え頂けましたら同じ方向に向かって歩きます。全てのエンジニア様が楽しく技術を磨き、私生活までもより良くなるようにお手伝い出来るよう精進します。</p>
+                <p>☆趣味</p>
+                <p>◇スポーツ観戦、ダーツ◇</p>
+                プロ野球が大好きで夢は12球団のホームグランド回る事です。（現在4球団）
+                <p>ダーツの腕前はレーティング7なので、まだまだこれからです。</p>
+                </p>
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- -ERVICE2 -->
+
+				<!-- -SERVICE2 -->
 				<div class="section innerspace contentsbox descriptionboxwrap">
 					<div class="descriptionbox descriptionimageright">
 						<div class="descriptionimagebox">
@@ -104,11 +111,15 @@ if ($ret === FALSE)
 						</div>
 						<div class="descriptiontextbox">
 							<div class="descriptiontext">
-								<p>営業担当：向井</p>
+								<p>営業担当：田村</p>
 								<hr>
 							</div>
 							<div class="descriptiontextleft">
-								<p>転職、フリーランス活動、独立をお考えの方に対して保険関係、就職助成金関係その他以外に手間がかかることが多々あるかと思います。もちろん初めての方はどうすれば良いか、本当に手続きの流れは合っているのか、より良い手続き仕方など労務に関する様々なご提案をさせていただくことが可能です。</p>
+								<p>技術者様が感じている不安やストレスなどをいち早く察知し、楽しく働いて頂くためにより良い提案ができるような営業マンを目指しています。お金や時間や仕事内容、家庭など人それぞれが大事にしてる部分が違うと思うので技術者様の要望に沿う案件を探したり、積極的に何でも相談して頂けるような関係性を築き上げていけたらと考えています。
+                <p>☆趣味</p>
+                <p>◇音楽◇</p>
+                趣味が高じてギターで作曲活動もしています。
+                </p>
 							</div>
 						</div>
 					</div>
@@ -122,36 +133,18 @@ if ($ret === FALSE)
 						</div>
 						<div class="descriptiontextbox">
 							<div class="descriptiontext">
-								<p>営業担当：松村</p>
+								<p>営業担当：西田</p>
 								<hr>
 							</div>
 							<div class="descriptiontextleft">
-								<p>エンジニア同士の出会いや情報交換はフリーランスにとって大きな財産となります。そのような財産を作っていただくべく、当社では定期的に交流会を開催しております。また交流会には当社の社員も参加いたしますので、改善点やクレーム、アイデアなどもお気軽にご指摘いただければ幸いです。</p>
+								<p>技術者の方々がどういったスキルを習得していきたいかをしっかりとヒアリングを行い技術者様の立場に立って個性を最大限に活かせる営業しています。業務内容、勤怠面、スキル面、収入面、技術者さんの作るキャリアビジョンを全力でサポートし、１・３・５・１０年と理想とする自分像の目標達成を目指します。
+                <p>☆趣味</p>
+                <p>◇ゲーム、動画鑑賞◇</p>
+
+                </p>
 							</div>
 						</div>
 					</div>
-				</div>
-
-				<!-- Let's start! -->
-				<div class="section innerspace contentsbox registbox">
-					<h3 class="registtitle">
-						<a href="<?= Fj_NewMember ?>">
-							<div class="registtitletext blink">
-								Let's　start!
-							</div>
-						</a>
-						<div class="registtitlenote">
-							あなたも始めてみませんか？ まずは無料登録から！
-						</div>
-					</h3>
-					<a href="<?= Fj_NewMember ?>" class="btn registbtn bg-rightred">
-						<div class="registbtntext">
-							無料求人サービスに登録
-						</div>
-						<div class="registbtnnote">
-							関西No.1の案件数からあなたに合ったJOBをお届け！
-						</div>
-					</a>
 				</div>
 
 			</div>
@@ -168,4 +161,3 @@ if ($ret === FALSE)
 
 </body>
 </html>
-
