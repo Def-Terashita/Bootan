@@ -88,7 +88,7 @@ if ($ret === FALSE)
             			<div class="companywrap">
 
             				<div class="companyimg">
-								<img class="" src="<?= Fj_Img ?>company.jpg" alt="企業イメージの写真">
+								<img class="" src="<?= Fj_Img ?>Deftribe通路.jpg" alt="Deftribeの写真">
 							</div>
                             <div  class="companynote">
                                 私達は “ひと” がすべてと考えています。
@@ -132,28 +132,6 @@ if ($ret === FALSE)
 
 				</div>
 
-
-				<!-- Let's start! -->
-				<div class="section innerspace contentsbox registbox">
-					<h3 class="registtitle">
-						<a href="<?= Fj_NewMember ?>">
-							<div class="registtitletext blink">
-								Let's　start!
-							</div>
-						</a>
-						<div class="registtitlenote">
-							あなたも始めてみませんか？ まずは無料登録から！
-						</div>
-					</h3>
-					<a href="<?= Fj_NewMember ?>" class="btn registbtn bg-rightred">
-						<div class="registbtntext">
-							求人サービスに登録
-						</div>
-						<div class="registbtnnote">
-							豊富な案件数からあなたに合ったJOBをお届け！
-						</div>
-					</a>
-				</div>
 
 			</div>
 		</div>
