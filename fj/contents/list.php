@@ -194,7 +194,6 @@ if(!isset($_GET['page']) && !isset($_POST["sort"]))
                 {
                     // $sql .= " pt.subject LIKE '%{$val}%'";
                     $sql .= " replace(replace(replace(pt.subject, '-', ''), '/', ''), '.', '') LIKE '%{$val}%'";
-                    
                 }
                 else
                 {
@@ -602,7 +601,6 @@ function listStr($project_data)
                     ";
         }
 
-        
     }
     return $msg;
 }
@@ -615,7 +613,6 @@ function newStamp($post_date){
 	$post_date_timeStamp = $dateObj->getTimestamp();
 	//今日と掲載日時を比較
 	if(time() - $post_date_timeStamp < NEW_DAY){
-		
 		$new_css = "new-stamp";
 	}
 	return $new_css;
@@ -669,7 +666,6 @@ function newStamp($post_date){
   });
 });
     </script>
-	
 </head>
 
 
@@ -735,34 +731,12 @@ function newStamp($post_date){
 					<div style="text-align: center"><?= $page ?></div>
 				</div>
 
-				<!-- Let's start! -->
-				<div class="section innerspace contentsbox registbox">
-					<h3 class="registtitle">
-						<a href="<?= Fj_NewMember ?>">
-							<div class="registtitletext blink">
-								Let's　start!
-							</div>
-						</a>
-						<div class="registtitlenote">
-							あなたも始めてみませんか？ まずは無料登録から！
-						</div>
-					</h3>
-					<a href="<?= Fj_NewMember ?>" class="btn registbtn bg-rightred">
-						<div class="registbtntext">
-							無料求人サービスに登録
-						</div>
-						<div class="registbtnnote">
-							関西No.1の案件数からあなたに合ったJOBをお届け！
-						</div>
-					</a>
-				</div>
-
 			</div>
 		</div>
 
         <!-- フッター -->
 		<?php include (FJ_Footer);?>
-		
+
 	</div>
 
 

@@ -40,7 +40,7 @@ if ($ret === FALSE)
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="<?= Fj_GooglAnalytics_async ?>"></script>
     <script src="<?= Fj_GooglAnalytics ?>"></script>
-	
+
 </head>
 
 
@@ -164,35 +164,12 @@ if ($ret === FALSE)
 				</div>
 
 
-				<!-- Let's start! -->
-				<div class="section innerspace contentsbox registbox">
-					<h3 class="registtitle">
-						<a href="<?= Fj_NewMember ?>">
-							<div class="registtitletext blink">
-								Let's　start!
-							</div>
-						</a>
-						<div class="registtitlenote">
-							あなたも始めてみませんか？ まずは無料登録から！
-						</div>
-					</h3>
-					<a href="<?= Fj_NewMember ?>" class="btn registbtn bg-rightred">
-						<div class="registbtntext">
-							無料求人サービスに登録
-						</div>
-						<div class="registbtnnote">
-							豊富な案件数からあなたに合ったJOBをお届け！
-						</div>
-					</a>
-				</div>
-
-
 			</div>
 		</div>
 
         <!-- フッター -->
 		<?php include (FJ_Footer);?>
-		
+
 	</div>
 
 
