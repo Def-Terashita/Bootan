@@ -118,17 +118,6 @@ h2
     font-weight: bold;
 }
 
-.voice-title {
-    padding: 2px;
-    border-radius: 3px;
-    margin: 14px;
-    width: 100px;
-    height: 20px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-}
-
 input[type=radio],input[type=checkbox]
 {
   display: none;
@@ -232,6 +221,7 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
 .searcharrow
 {
     color: #FFF;
+    position: relative;
     padding-right: 32px;
 }
 .searcharrow2
@@ -263,11 +253,6 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
    margin:30px 0;
 }
 
-.voice
-{
-   margin:30px 30px;
-}
-
 #top-form
 {
 	width: 100%;
@@ -280,11 +265,6 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
 }
 
 .service p
-{
-	word-break:normal;
-}
-
-.voice p
 {
 	word-break:normal;
 }
@@ -329,10 +309,6 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
     background-color: #009999;
 }
 
-.voice-btn {
-    border: solid 2px rgb(202, 32, 40);
-}
-
 .top-main-end
 {
 	margin-bottom:0px;
@@ -362,26 +338,6 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
 
 	.top-innerspace
 	{
-	    padding: 0 140px 0px 140px;
-	    margin: 1em;
-	    background-color: white;
-
-	}
-
-	.search-innerspace /*内側のスペース*/
-	{
-		padding: 30px 24px;
-	}
-
-	.search-innerspace/*内側のスペース*/
-	{
-		padding: 0 140px 20px 140px;
-		margin: 1em;
-		background-color: white;
-	}
-
-	.voice-innerspace
-	{
 	    padding: 0 140px 40px 140px;
 	    margin: 1em;
 	    background-color: white;
@@ -396,7 +352,7 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
 
 	.top-catch-main
 	{
-		font-size:2.0em;
+		font-size:3.5em;
 		color: rgb(202, 32, 40);
 		background-color: white;
 	}
@@ -415,11 +371,6 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
 	{
 		display:block;
 		text-align:right;
-	}
-
-	.voice-btn-wrap {
-    display: block;
-    text-align: right;
 	}
 
 	.freewordbtn
@@ -470,19 +421,6 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
 	}
 
 	.service p
-	{
-		padding: 5px 15px 10px 15px;
-	}
-
-	.voice
-	{
-		width: 27%;
-	    text-align: center;
-	    vertical-align: middle;
-	    float: left;
-	}
-
-	.voice p
 	{
 		padding: 5px 15px 10px 15px;
 	}
