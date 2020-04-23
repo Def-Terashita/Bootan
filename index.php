@@ -26,8 +26,9 @@ $ret = include_once(FJ_Config);  // config.php
 
 if ($ret === FALSE)
 {
-    $errmsg[] = "※設定情報ファイル 読み込みエラー！";	
+    $errmsg[] = "※設定情報ファイル 読み込みエラー！";
 }
+
 
 //:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -88,7 +89,7 @@ if ($ret === FALSE)
 
         <!-- ナビゲーション -->
 		<?php include (FJ_Header);?>
-		
+
 
 
         <!-- メインコンテンツ -->
@@ -198,7 +199,7 @@ if ($ret === FALSE)
                     <div class="voice-btn-wrap">
                         <input type="button" value="他の口コミを見る" class="btn voice-btn bg-white color-black" onclick="location.href='/Bootan/fj/contents/voice.php'">
                     </div>
-    
+
                     <div class="clear"></div>
             </div>
 
@@ -206,12 +207,11 @@ if ($ret === FALSE)
 
 
 
- 		
+
 
         <!-- フッター -->
-		<?php include (FJ_Footer);?>		
+		<?php include (FJ_Footer);?>
         </div>
 	</div>
 </body>
 </html>
-
