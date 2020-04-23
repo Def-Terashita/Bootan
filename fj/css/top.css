@@ -320,6 +320,11 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
     background-color: #009999;
 }
 
+.voice-btn
+{
+    border: solid 2px rgb(202, 32, 40);
+}
+
 .top-main-end
 {
 	margin-bottom:0px;
@@ -355,6 +360,22 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
 
 	}
 
+	.search-innerspace
+	{
+	    padding: 0 140px 40px 140px;
+	    margin: 1em;
+	    background-color: white;
+
+	}
+
+	.voice-innerspace
+	{
+	    padding: 0 140px 40px 140px;
+	    margin: 1em;
+	    background-color: white;
+
+	}
+
 	.top-catch-sub
 	{
 		font-size:1.3em;
@@ -379,6 +400,12 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
 	}
 
 	.search-clear-btn-wrap
+	{
+		display:block;
+		text-align:right;
+	}
+
+	.voice-btn-wrap
 	{
 		display:block;
 		text-align:right;
@@ -425,6 +452,15 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
 	    float: left;
 	}
 
+	.voice
+	{
+		width: 27%;
+	    text-align: center;
+	    vertical-align: middle;
+		float: left;
+		margin: 30px;
+	}
+
 	.top-img
 	{
 		width:100%;
@@ -433,6 +469,10 @@ input[type=radio]:checked + .check_css:before,input[type=checkbox]:checked + .ch
 
 	.service p
 	{
+		padding: 5px 15px 10px 15px;
+	}
+
+	.voice p {
 		padding: 5px 15px 10px 15px;
 	}
 
