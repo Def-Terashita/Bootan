@@ -100,6 +100,7 @@ if ($ret === FALSE)
             	   <h1 style="text-align: center">Bootanについて</h1>
                     <p  style="text-align: center"><span class="toptext">Bootanは、関西エリアのJavaScript・HTMLの求人・案件情報提供サイトです。</span></p>
                     <p  style="text-align: center"><span class="toptext">フリーランスの皆様のスキル・希望にマッチした案件を提案します。</span></p>
+                    <p  style="text-align: center"><span class="toptext">　</span></p>
             </div>
 
         <!-- メイン２ -->
@@ -128,14 +129,12 @@ if ($ret === FALSE)
                 <div class="clear"></div>
             </div>
                         <!-- メイン３ -->
-                <div class="color-white top-catch"  id="top-catch-serch">
-                    <div class="top-catch-main">Search</div>
-                </div>
 
                 <form action="<?= Fj_List ?>" method="post" name="searchform">
-                    <div class="searchbox bg-white" id="searchbox">
+                    <div class="searchbox bg-white" id="searchbox"></div>
                         <!-- 検索バー -->
-                        <div class="innerspace" style="text-align: left">
+                        <div class="search-innerspace" style="text-align: left">
+                            <h1 style="text-align: center">仕事を探す</h1>
 
                             <div class="search-clear-btn-wrap">
                                 <input type="button" value="検索条件をリセット" class="btn clear-btn bg-red color-white" onclick="allclear(false);">
@@ -169,44 +168,49 @@ if ($ret === FALSE)
                         </div>
 
                         <button class="reset-btn searchbtn bg-red color-white" type="submit" name="submit">
-                            <span class="searcharrow">検索</span><span class="searcharrow2"></span><span class="searcharrow2"></span><span class="searcharrow3">求人をCHECK!!</span>
+                            <span class="searcharrow">検索</span>
                         </button>
 
                     </div>
 
                 </form>
-            </div>    
 
-			<!-- メイン４ -->
-			<div class="section innerspace contentsbox descriptionboxwrap">
-				<div class="descriptionbox descriptionimageright">
-					<div class="descriptiontextbox">
-						<h3 class="descriptiontextheadline">
-							<span class="headline">
-								<span class="headlinekanafont">口コミ</span>
-							</span>
-						</h3>
-						<div class="descriptiontext">
-						<div class="top-img"><img src="<?= Fj_Img ?>口コミのイメージ.jpg" alt="口コミのイメージ画像" width = "300" height ="200"></div>
-                    	<div>
-							<p>抜粋した口コミ</p>
-						</div>
-						<div class="projectbtn-space projectbtn bg-yellow">
-    						<a href="#top-bg" class="color-white">ほかの口コミを見る</a>
-    					</div>
-					</div>
-				</div>
-			</div>
+			     <!-- メイン４ -->
+                <div class="top-main voice-innerspace">
+                    <h1 style="text-align: center">口コミ</h1>
+                        <div class="voice">
+                            <div class="top-img"><img src="<?= Fj_Img ?>man.png" alt="口コミのイメージ画像" width = "100" height ="100"></div>
+                        <h3>30代男性</h3>
+                        <p style="word-break:normal;" align="left";>案件が豊富にあるので自分の好きな仕事ができている上、会社員の時と比べて収入が格段に上がり、毎日が充実しています。</p>
+                    </div>
+                    <div class="voice">
+                    <div class="top-img"><img src="<?= Fj_Img ?>woman.png" alt="口コミのイメージ画像" width = "100" height ="100"></div>
+                        <h3>20代女性</h3>
+                        <p style="word-break:normal;" align="left";>登録後の面談では、自分の話をじっくり聞いてくださり、その後すぐにマッチする案件への面談を進めていただきました。親身な対応と仕事の迅速さに魅力を感じています。</p>
+                    </div>
+                    <div class="voice">
+                        <div class="top-img"><img src="<?= Fj_Img ?>man.png" alt="口コミのイメージ画像" width = "100" height ="100"></div>
+                        <h3>50代男性</h3>
+                        <p style="word-break:normal;" align="left";>登録後すぐに案件を紹介してくださり、前職から間をあけることなく働くことができました。
+フリーランス特有の仕事が途切れる不安が軽減されるので、今は目の前の仕事に思い切り打ち込めています。</p>
+                    </div>
+
+                    <div class="voice-btn-wrap">
+                        <input type="button" value="他の口コミを見る" class="btn voice-btn bg-white color-black" onclick="location.href='/Bootan/fj/contents/voice.php'">
+                    </div>
+    
+                    <div class="clear"></div>
+            </div>
 
 
 
 
 
- 		</div>
+ 		
 
         <!-- フッター -->
 		<?php include (FJ_Footer);?>		
-
+        </div>
 	</div>
 </body>
 </html>
