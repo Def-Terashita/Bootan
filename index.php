@@ -138,11 +138,11 @@ if ($ret === FALSE)
                             <h1 style="text-align: left">仕事を探す</h1>
 
                             <div class="search-clear-btn-wrap">
-                                <input type="button" value="検索条件をリセット" class="btn clear-btn bg-red color-white" onclick="allclear(false);">
+                                <input type="button" value="検索条件をリセット" class="btn clear-btn bg-white color-black" onclick="allclear(false);">
                             </div>
                             
 
-                            <div class="search-title bg-red">エリア</div>
+                            <h4 style="text-align: left">エリア</h4>
                             <div style="margin-bottom:20px;">
                                 <input type="checkbox" name="area_no[]" value="<?= Osaka ?>" id="Osaka" />
                                 <label for="Osaka" class="check_css">大阪</label>
