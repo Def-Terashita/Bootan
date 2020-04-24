@@ -107,7 +107,7 @@ if ($ret === FALSE)
 				<div class="section innerspace contentsbox descriptionboxwrap">
 					<div class="descriptionbox descriptionimageright">
 						<div class="descriptionimagebox">
-							<img class="descriptionimage" src="<?= Fj_Img ?>向井さん.jpg" alt="向井さん写真">
+							<img class="descriptionimage" src="<?= Fj_Img ?>田村さん.jpg" alt="田村さん写真">
 						</div>
 						<div class="descriptiontextbox">
 							<div class="descriptiontext">
@@ -129,7 +129,7 @@ if ($ret === FALSE)
 				<div class="section innerspace contentsbox descriptionboxwrap">
 					<div class="descriptionbox descriptionimageleft">
 						<div class="descriptionimagebox">
-							<img class="descriptionimage" src="<?= Fj_Img ?>松村さん.jpg" alt="松村さん写真">
+							<img class="descriptionimage" src="<?= Fj_Img ?>西田さん.jpg" alt="西田さん写真">
 						</div>
 						<div class="descriptiontextbox">
 							<div class="descriptiontext">
