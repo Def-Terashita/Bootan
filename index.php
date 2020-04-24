@@ -125,7 +125,7 @@ if ($ret === FALSE)
                     <div class="service">
                         <h2 class="feature-number" align="left">04</h2>
                         <h3 style="text-align: left">応募の面接</h3>
-                        <p style="word-break:normal;" align="left";>応募、選考状況の確認、面談の日程調整などコーディネーターがすべて行います。制作時期の調整、条件の確認など制作までの下がれを徹底サポートします</p>
+                        <p style="word-break:normal;" align="left";>応募、選考状況の確認、面談の日程調整などコーディネーターがすべて行います。制作時期の調整、条件の確認など現場へ参画するまでの流れを徹底サポートします</p>
                     </div>
                 <div class="clear"></div>
             </div>
