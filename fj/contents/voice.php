@@ -65,7 +65,7 @@ if ($ret === FALSE)
 							<div class="section innerspace contentsbox sectionmainview">
 					<div class="mainvisual">
 						<h3 class="mainvisualfont">
-							<span class="mainvisual mainvisualenfont">ご利用者様の声</span>
+							<span class="mainvisual mainvisualenfont">口コミ</span>
 						</h3>
 						<span class="mainvisual mainvisualnotefont">Bootanをご利用いただいた方の声をご紹介いたします。</span>
 					</div>
@@ -76,84 +76,84 @@ if ($ret === FALSE)
                     <div>Bootanをご利用いただいている個人事業主の方々からお声を頂戴いたしました。</div>
 					<hr>
 					<!-- voice -->
-                    <div class='voice_listbox bg-rightgray'>
+                    <div class='voice_listbox bg-white'>
                         <div class="engineer">
-                            <img src="../img/voice.png" alt="40代男性のイメージ画像">40代男性
+                            <img src="../img/man.png" alt="40代男性のイメージ画像" width="60" height="60">40代男性
                         </div>
                         <div class='voice'>
                             対応がスピーディなので案件が終了してもすぐに次案件への参画ができています。
 							<br>エージェントとの連携も密に取れており信頼できる会社だと感じています。
                         </div>
                     </div>
-                    <div class='voice_listbox bg-rightgray'>
+                    <div class='voice_listbox bg-white'>
                         <div class="engineer">
-                            <img src="../img/voice.png" alt="30代男性のイメージ画像">30代男性
+                            <img src="../img/man.png" alt="30代男性のイメージ画像" width="60" height="60">30代男性
                         </div>
                         <div class='voice'>
                             案件が豊富にあるので自分の好きな仕事ができている上、会社員の時と比べて収入が格段に上がり、毎日が充実しています。
                         </div>
                     </div>
-                    <div class='voice_listbox bg-rightgray'>
+                    <div class='voice_listbox bg-white'>
                         <div class="engineer">
-                            <img src="../img/voice.png" alt="20代女性のイメージ画像">20代女性
+                            <img src="../img/woman.png" alt="20代女性のイメージ画像" width="60" height="60">20代女性
                         </div>
                         <div class='voice'>
                             登録後の面談では、自分の話をじっくり聞いてくださり、その後すぐにマッチする案件への面談を進めていただきました。
 							<br>親身な対応と仕事の迅速さに魅力を感じています。
                         </div>
                     </div>
-                    <div class='voice_listbox bg-rightgray'>
+                    <div class='voice_listbox bg-white'>
                         <div class="engineer">
-                            <img src="../img/voice.png" alt="40代男性のイメージ画像">40代男性
+                            <img src="../img/man.png" alt="40代男性のイメージ画像" width="60" height="60">40代男性
                         </div>
                         <div class='voice'>
                             <div>手数料が一律10％と明瞭なのが誠実だと感じました。</div>
                         </div>
                     </div>
-                    <div class='voice_listbox bg-rightgray'>
+                    <div class='voice_listbox bg-white'>
                         <div class="engineer">
-                            <img src="../img/voice.png" alt="20代男性のイメージ画像">20代男性
+                            <img src="../img/man.png" alt="20代男性のイメージ画像" width="60" height="60">20代男性
                         </div>
                         <div class='voice'>
                             経験が浅く、本当に自分にできるのだろうかと不安でしたが、チャレンジするなら今のうちだと思い飛び込みました。
 							<br>こちらは自分の経験に合った案件を紹介してくださるので技術者として成長を感じています。
                         </div>
                     </div>
-                    <div class='voice_listbox bg-rightgray'>
+                    <div class='voice_listbox bg-white'>
                         <div class="engineer">
-                            <img src="../img/voice.png" alt="60代男性のイメージ画像">60代男性
+                            <img src="../img/man.png" alt="60代男性のイメージ画像" width="60" height="60">60代男性
                         </div>
                         <div class='voice'>
                             サラリーマンの時と違い収入の面で不安もありましたが、案件が豊富であることと、支払いサイトが翌月末払いなので安心して生活できています。
                         </div>
                     </div>
-                    <div class='voice_listbox bg-rightgray'>
+                    <div class='voice_listbox bg-white'>
                         <div class="engineer">
-                            <img src="../img/voice.png" alt="30代女性のイメージ画像">30代女性
+                            <img src="../img/woman.png" alt="30代女性のイメージ画像" width="60" height="60">30代女性
                         </div>
                         <div class='voice'>
                             会社員からキャリアチェンジをしたばかりで不安も大きかったですが、フリーランスのためのサポートが充実しているので心強いです。
                         </div>
                     </div>
-                    <div class='voice_listbox bg-rightgray'>
+                    <div class='voice_listbox bg-white'>
                         <div class="engineer">
-                            <img src="../img/voice.png" alt="30代男性のイメージ画像">30代男性
+                            <img src="../img/man.png" alt="30代男性のイメージ画像" width="60" height="60">30代男性
                         </div>
                         <div class='voice'>
                         	他のエージェントの登録もしていましたが、初回面談時に担当してくださった方がとても話しやすかったことが決め手になりました。
                         </div>
                     </div>
-                    <div class='voice_listbox bg-rightgray'>
+                    <div class='voice_listbox bg-white'>
                         <div class="engineer">
-                            <img src="../img/voice.png" alt="30代女性のイメージ画像">30代女性
+                            <img src="../img/woman.png" alt="30代女性のイメージ画像" width="60" height="60">30代女性
                         </div>
                         <div class='voice'>
                         	契約後も継続的に案件情報の提供があるので常に自分に合ったやりがいのある仕事に就けています。
                         </div>
                     </div>
-                    <div class='voice_listbox bg-rightgray'>
+                    <div class='voice_listbox bg-white'>
                         <div class="engineer">
-                            <img src="../img/voice.png" alt="50代男性のイメージ画像">50代男性
+                            <img src="../img/man.png" alt="50代男性のイメージ画像" width="60" height="60">50代男性
                         </div>
                         <div class='voice'>
                         	登録後すぐに案件を紹介してくださり、前職から間をあけることなく働くことができました。

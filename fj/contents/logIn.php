@@ -198,9 +198,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 				<div class="section innerspace contentsbox sectionmainview">
 					<div class="mainvisual">
 						<h3 class="mainvisualfont">
-							<span class="mainvisual mainvisualenfont">LOGIN</span>
-							<span class="mainvisual mainvisuallinefont">|</span>
-							<span class="mainvisual mainvisualkanafont">ログイン</span>
+							<span class="mainvisual mainvisualenfont">ログイン</span>
 						</h3>
 						<span class="mainvisual mainvisualnotefont">会員専用ページ</span>
 					</div>
