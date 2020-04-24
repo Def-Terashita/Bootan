@@ -98,33 +98,33 @@ if ($ret === FALSE)
 
         <!-- メイン１ -->
             <div class="top-main top-innerspace">
-            	   <h1 style="text-align: center">Bootanについて</h1>
-                    <p  style="text-align: center"><span class="toptext">Bootanは、関西エリアのJavaScript・HTMLの求人・案件情報提供サイトです。</span></p>
-                    <p  style="text-align: center"><span class="toptext">フリーランスの皆様のスキル・希望にマッチした案件を提案します。</span></p>
-                    <p  style="text-align: center"><span class="toptext">　</span></p>
+            	   <h1 style="text-align: left">Bootanについて</h1>
+                    <p  style="text-align: left"><span class="toptext">Bootanは、関西エリアのJavaScript・HTMLの求人・案件情報提供サイトです。</span></p>
+                    <p  style="text-align: left"><span class="toptext">フリーランスの皆様のスキル・希望にマッチした案件を提案します。</span></p>
+                    <p  style="text-align: left"><span class="toptext">　</span></p>
             </div>
 
         <!-- メイン２ -->
             <div class="top-main top-innerspace">
-                <h1 style="text-align: center">ご利用の流れ</h1>
+                <h1 style="text-align: left">ご利用の流れ</h1>
                     <div class="service">
-                        <p class="feature-number">01</p>
-                        <h3>お申込み</h3>
+                        <h2 class="feature-number" align="left">01</h2>
+                        <h3 style="text-align: left">お申込み</h3>
                         <p style="word-break:normal;" align="left";>メールフォームよりお申込みください。弊社より折り返しご連絡いたします。</p>
                     </div>
                     <div class="service">
-                        <p class="feature-number">02</p>
-                        <h3>面談</h3>
+                        <h2 class="feature-number" align="left">02</h2>
+                        <h3 style="text-align: left">面談</h3>
                         <p style="word-break:normal;" align="left";>専任のコーディネーターがあなたの転職プランをご提案いたします。</p>
                     </div>
                     <div class="service">
-                        <p class="feature-number">03</p>
-                        <h3>案件の紹介</h3>
+                        <h2 class="feature-number" align="left">03</h2>
+                        <h3 style="text-align: left">案件の紹介</h3>
                         <p style="word-break:normal;" align="left";>豊富な案件情報からあなたの能力やキャリアにふさわしい企業をご紹介いたします。</p>
                     </div>
                     <div class="service">
-                        <p class="feature-number">04</p>
-                        <h3>応募の面接</h3>
+                        <h2 class="feature-number" align="left">04</h2>
+                        <h3 style="text-align: left">応募の面接</h3>
                         <p style="word-break:normal;" align="left";>応募、選考状況の確認、面談の日程調整などコーディネーターがすべて行います。制作時期の調整、条件の確認など制作までの下がれを徹底サポートします</p>
                     </div>
                 <div class="clear"></div>
@@ -135,11 +135,12 @@ if ($ret === FALSE)
                     <div class="searchbox bg-white" id="searchbox"></div>
                         <!-- 検索バー -->
                         <div class="search-innerspace" style="text-align: left">
-                            <h1 style="text-align: center">仕事を探す</h1>
+                            <h1 style="text-align: left">仕事を探す</h1>
 
                             <div class="search-clear-btn-wrap">
                                 <input type="button" value="検索条件をリセット" class="btn clear-btn bg-red color-white" onclick="allclear(false);">
                             </div>
+                            
 
                             <div class="search-title bg-red">エリア</div>
                             <div style="margin-bottom:20px;">
@@ -178,7 +179,7 @@ if ($ret === FALSE)
 
 			     <!-- メイン４ -->
                 <div class="top-main voice-innerspace">
-                    <h1 style="text-align: center">口コミ</h1>
+                    <h1 style="text-align: left">口コミ</h1>
                         <div class="voice">
                             <div class="top-img"><img src="<?= Fj_Img ?>man.png" alt="口コミのイメージ画像" width = "100" height ="100"></div>
                         <h3>30代男性</h3>
