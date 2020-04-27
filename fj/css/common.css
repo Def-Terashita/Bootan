@@ -345,7 +345,7 @@ background-color: rgb(88, 175, 197);
   height: 3px;/*線の太さ*/
   width: 25px;/*長さ*/
   border-radius: 3px;
-  background: black;
+  background: rgb(202, 32, 40);
   display: block;
   content: '';
   cursor: pointer;
@@ -1258,5 +1258,27 @@ footer
 }
 
 
+/*--------------------------------------------------*/
+/*↓スマホ用の追加・変更デザイン↓*/
+/*--------------------------------------------------*/
+@media screen and (max-width:896px) {
+	.nav .navbtn, #login-msg input
+	{
+		font-weight: bold;
+		float:right;
+		display: inline-block;
+		border: none;
+		outline: none;
+		padding: 0px 10px 5px 10px;
+		border-radius: 3px;
+		text-decoration: none;
+		transition: .4s;
+	}
 
+	.nav .navbtn a, #login-msg input
+	{
+		color: white;
+		font-size: 0.7em;
+	}
 
+}

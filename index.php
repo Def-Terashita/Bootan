@@ -105,7 +105,7 @@ if ($ret === FALSE)
             </div>
 
         <!-- メイン２ -->
-            <div class="top-main top-innerspace">
+            <div class="top-main top-innerspace" >
                 <h1 style="text-align: left">ご利用の流れ</h1>
                     <div class="service">
                         <h2 class="feature-number" align="left">01</h2>
@@ -134,7 +134,7 @@ if ($ret === FALSE)
                 <form action="<?= Fj_List ?>" method="post" name="searchform">
                     <div class="searchbox bg-white" id="searchbox"></div>
                         <!-- 検索バー -->
-                        <div class="search-innerspace" style="text-align: left">
+                        <div class="search-innerspace" style="text-align: center">
                             <h1 style="text-align: left">仕事を探す</h1>
 
                             <div class="search-clear-btn-wrap">
@@ -143,7 +143,7 @@ if ($ret === FALSE)
                             
 
                             <h4 style="text-align: left">エリア</h4>
-                            <div style="margin-bottom:20px;">
+                            <div style="text-align: left">
                                 <input type="checkbox" name="area_no[]" value="<?= Osaka ?>" id="Osaka" />
                                 <label for="Osaka" class="check_css">大阪</label>
                                 <input type="checkbox" name="area_no[]" value="<?= Kyoto ?>" id="Kyoto" />

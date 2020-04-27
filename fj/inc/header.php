@@ -11,7 +11,7 @@
 
 // 基本
 $headermsg = "<div class='navbtn bg-red'><a href='". Fj_LogIn."'>ログイン</a></div><div class='clear'></div>";
-$headermsg_sp = "<div class='navbtn bg-yellow'><a href='". Fj_LogIn."'>ログイン</a></div><div class='clear'></div>";
+$headermsg_sp = "<div class='navbtn bg-red'><a href='". Fj_LogIn."'>ログイン</a></div><div class='clear'></div>";
 $headermsg_sp_user = "";
 $headermsg2 = "<div class='navbtn bg-red'><a href='". Fj_NewMember."'>会員登録</a></div><div class='clear'></div>";
 $headermsg_sp2 = "<div class='navbtn bg-yellow'><a href='". Fj_NewMember."'>会員登録</a></div><div class='clear'></div>";
