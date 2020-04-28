@@ -134,7 +134,7 @@ if ($ret === FALSE)
                 <form action="<?= Fj_List ?>" method="post" name="searchform">
                     <div class="searchbox bg-white" id="searchbox"></div>
                         <!-- 検索バー -->
-                        <div class="search-innerspace" style="text-align: center">
+                        <div class="search-innerspace">
                             <h1 style="text-align: left">仕事を探す</h1>
 
                             <div class="search-clear-btn-wrap">

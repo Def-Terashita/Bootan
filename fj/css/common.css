@@ -379,14 +379,14 @@ background-color: rgb(88, 175, 197);
 
 #sp-title /*中身*/
 {
-	text-align:center;
+	text-align:left;
 	width: 100%;
-    background-image: url(../img/topbg.png);
     background-position: 50% 55%;
     background-repeat: no-repeat;
     -moz-background-size: cover;
     background-size: cover;
-    padding: 6.8vw 0;
+	padding: 6.8vw 10vw;
+	border-bottom: solid 2px rgb(200,0,0);
 }
 
 #nav-content
@@ -423,8 +423,8 @@ background-color: rgb(88, 175, 197);
 }
 #nav-content li
 {
-	text-align:center;
-	margin:15px 0;
+	text-align:left;
+	margin:20px 80px;
 }
 #nav-content a
 {
@@ -515,7 +515,6 @@ background-color: rgb(88, 175, 197);
 @media screen and (min-width:768px)
 {
 
-
 	#navi-sp
 	{
 		display:none;
@@ -584,7 +583,7 @@ background-color: rgb(88, 175, 197);
 	.nav ul {
 	    float: right;
 
-	    padding: 26px 20px 0px 17px;
+	    padding: 0px 20px 0px 17px;
 	}
 
 	.nav li
@@ -598,7 +597,8 @@ background-color: rgb(88, 175, 197);
 	    padding: 0 5px;
 	    display: block;
 	    text-align:right;
-	    font-weight:bold;
+		font-weight:bold;
+		font-size: 13px;
 	}
 
 	.nav li img
@@ -630,9 +630,19 @@ background-color: rgb(88, 175, 197);
 /*--------------------------------------------------*/
 @media screen and (min-width:920px)
 {
+
+	a
+	{
+		font-size: 20px;
+	}
+
 	.nav li a
 	{
-	    padding: 0 12px;
+		padding: 0 12px;
+		display: block;
+		text-align: right;
+		font-weight: bold;
+		font-size: 20px;
 	}
 
 	.nav-contact
@@ -674,6 +684,15 @@ background-color: rgb(88, 175, 197);
 		padding-left: 19px;
 	}
 
+	#footer-img {
+		margin-bottom: 20px;
+		text-align: right;
+		padding: 10px;
+	}
+
+	#fotter-snsimg li {
+		text-align: right;
+	}
 }
 
 
@@ -698,24 +717,48 @@ footer
 
 .footer-contents
 {
-	text-align: center;
+	text-align: left;
+}
+
+.footer-contents li{
+	font-size: 11px;
 }
 
 .sp-space
 {
-	height:20px;
+	height:5px;
 }
 
 #footer-img
 {
-	margin-bottom: 20px;
-	text-align: center;
+	margin-bottom: 10px;
+	text-align: right;
 }
 
+#footer-img img{
+	width: 25%;
+	height: 25%;
+}
+
+li{
+	font-size: 0.5em;	
+}
+
+#footer-snsimg
+{
+	margin-right: 5px;
+	float: left;
+}
+
+#footer-snsimg img{
+	width: 20px;
+	height: 20px;
+}
 #adress
 {
 	font-size:small;
-	text-align: center;
+	text-align: right;
+	padding: 10px 0 0 0;
 }
 
 /*--------------------------------------------------*/
@@ -724,6 +767,95 @@ footer
 /*--------------------------------------------------*/
 @media screen and (min-width:768px)
 {
+	.sp-space
+	{
+		display:none;
+	}
+
+
+	.footer-colm1
+	{
+		float:left;
+		width:60%;
+	}
+
+	.footer-colm2
+	{
+		float:left;
+		width:40%;
+		text-align:right;
+	}
+
+	.footer-contents
+	{
+		float:left;
+		width:33%;
+		text-align: left;
+	}
+
+	.footer-contents li{
+		font-size: 11px;
+	}
+
+	.footer-contents ul
+	{
+		padding-left:10%;
+	}
+
+	.footer-contents ul li a:hover
+	{
+		background-color:#F5F5F5;
+	}
+
+	#footer-img
+	{
+		margin-bottom: 20px;
+		text-align: right;
+	}
+	
+	#footer-img img{
+		width: 30%;
+		height: 30%;
+	}
+
+	li{
+		font-size: 0.5em;	
+	}
+
+	#footer-snsimg
+	{
+		margin-right: 20px;
+		float:left;
+	}
+
+	#footer-snsimg img{
+		width: 100%;
+		height: 100%;
+	}
+
+	#adress
+	{
+		padding-right:15px;
+		text-align: right;
+		padding: 0;
+	}
+}
+
+
+/*--------------------------------------------------*/
+/* フッター */
+/*PC用の追加・変更デザイン↓*/
+/*--------------------------------------------------*/
+@media screen and (min-width:920px)
+{
+	a{
+		font-size: 20px;
+	}
+
+	li{
+		font-size: 1.1em;
+	}
+
 	.sp-space
 	{
 		display:none;
@@ -766,19 +898,29 @@ footer
 		text-align: right;
 	}
 	
+	#footer-img img{
+		width: 30%;
+		height: 30%;
+	}
+
 	#footer-snsimg
 	{
 		margin-right: 20px;
-		float:left;
+		float: left;
+	}
+
+	#footer-snsimg img{
+		width: 100%;
+		height: 100%;
 	}
 
 	#adress
 	{
 		padding-right:15px;
 		text-align: right;
+		padding: 0;
 	}
 }
-
 
 /*==フッターここまで==================*/
 
