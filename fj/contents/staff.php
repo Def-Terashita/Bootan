@@ -72,7 +72,7 @@ if ($ret === FALSE)
 				<div class="section innerspace contentsbox sectionmainview">
 					<div class="mainvisual">
 						<h3 class="mainvisualfont">
-							<span class="mainvisual mainvisualenfont">コーディネーター
+							<span class="mainvisual mainvisualenfont">コーディネータ
 									</span>
 						</h3>
 						<span class="mainvisual mainvisualnotefont">フリーランスの皆様をサポートする担当者をご紹介いたします。</span>

@@ -794,12 +794,14 @@
 .companynote{
 	/*width:90%;*/
 	margin:0 auto;
+	font-size: 12px;
 }
 
 
 .company_tablewrap th, .company_tablewrap td
 {
 	border: solid 1px #e0dfdf;
+	font-size: 12px;
 }
 
 .company_tablewrap th
@@ -831,34 +833,111 @@
 /* 会社概要ページ */
 /*↓タブレット用の追加・変更デザイン↓*/
 /*--------------------------------------------------*/
-
 @media screen and (min-width:768px)
 {
 	.companyimg
 	{
-		float:left;
-		margin:0 2em 1em 0;
+		max-width:100%;
+		margin:30px auto;
+	}
+	.companyimg img
+	{
+		text-align:center;
+		max-width:100%;
 	}
 
-	.companywrap
+	.companynote{
+		/*width:90%;*/
+		margin:0 auto;
+		font-size: 20px;
+	}
+
+
+	.company_tablewrap th, .company_tablewrap td
 	{
-		padding:32px 16px 16px 16px;
+		border: solid 1px #e0dfdf;
+		font-size: 20px;
+	}
+
+	.company_tablewrap th
+	{
+		background-color:#c3c3c3;
+		color:#fff;
+	}
+
+
+	#map
+	{
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 30px;
+		height: 0;
+		overflow: hidden;
+	}
+
+	#map iframe,#map object,#map embed
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+/*--------------------------------------------------*/
+/* 会社概要ページ */
+/*↓PC用の追加・変更デザイン↓*/
+/*--------------------------------------------------*/
+@media screen and (min-width:920px)
+{
+	.companyimg
+	{
+		max-width:100%;
+		margin:30px auto;
+	}
+	.companyimg img
+	{
+		text-align:center;
+		max-width:100%;
 	}
 
 	.companynote
 	{
-		width:100%;
-		font-size: 1.1em;
-		font-weight: normal;
-		letter-spacing: 0.1em;
-		vertical-align: middle;
+		/*width:90%;*/
+		margin:0 auto;
+		font-size: 20px;
+	}
+
+	.company_tablewrap th, .company_tablewrap td
+	{
+		border: solid 1px #e0dfdf;
+		font-size: 20px;
+	}
+
+	.company_tablewrap th
+	{
+		background-color:#c3c3c3;
+		color:#fff;
 	}
 
 	#map
 	{
-	    padding-bottom: 32%;
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 30px;
+		height: 0;
+		overflow: hidden;
 	}
 
+	#map iframe,#map object,#map embed
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
 }
 
 /*==会社概要ページここまで==================*/
@@ -868,8 +947,6 @@
 /* プライバシーポリシ */
 /*↓モバイル～すべてのデバイスで共通の設定↓*/
 /*--------------------------------------------------*/
-
-
 .privacypolicynote
 {
 	width:100%;
@@ -877,6 +954,7 @@
 	letter-spacing: 0.1em;
 	vertical-align: middle;
 	padding: 10px 0px;
+	font-size: 0.7em;
 }
 
 .privacypolicy h2
@@ -884,18 +962,53 @@
 	padding: 0.25em 0.5em;/*上下 左右の余白*/
 	background: transparent;/*背景透明に*/
 	border-left: solid 8px #1c96de;/*左線*/
+	font-size: 1.2em;
 
 }
 
 
+/*--------------------------------------------------*/
+/* 会社概要ページ */
+/*↓タブレット用の追加・変更デザイン↓*/
+/*--------------------------------------------------*/
+@media screen and (min-width:768px)
+{
+	.privacypolicynote
+	{
+		width:100%;
+		font-weight: normal;
+		letter-spacing: 0.1em;
+		vertical-align: middle;
+		padding: 10px 0px;
+		font-size: 1.0em;
+	}
+
+	.privacypolicy h2
+	{
+		padding: 0.25em 0.5em;/*上下 左右の余白*/
+		background: transparent;/*背景透明に*/
+		border-left: solid 8px #1c96de;/*左線*/
+		font-size: 1.5em;
+
+	}
+}
+
+/*--------------------------------------------------*/
+/* 会社概要ページ */
+/*↓pc用の追加・変更デザイン↓*/
+/*--------------------------------------------------*/
+@media screen and (min-width:920px)
+{
+}
+
 /*==プライバシーポリシここまで==================*/
 
 
-
-
-/****以下篠原さん*********************************************************/
-
+/*--------------------------------------------------*/
 /* メインイメージ */
+/*↓モバイル～すべてのデバイスで共通の設定↓*/
+/*--------------------------------------------------*/
+
 .sectionmainview
 {
 	width: 100%;
@@ -906,7 +1019,7 @@
 	-moz-background-size: cover;
 	background-size: cover;
 	padding: 4vw 0;
-    padding: 160px 0 20px 0;
+    padding: 20px 0 20px 0;
 }
 
 .mainvisual
@@ -922,7 +1035,7 @@
 
 .mainvisualenfont
 {
-	font-size: 2.0em;
+	font-size: 1.2em;
 }
 
 .mainvisuallinefont
@@ -935,12 +1048,12 @@
 
 .mainvisualkanafont
 {
-	font-size: 2.0em;
+	font-size: 1.2em;
 }
 
 .mainvisualnotefont
 {
-	font-size: 1.3em;
+	font-size: 0.7em;
 	font-weight: normal;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -948,47 +1061,116 @@
 
 /*--------------------------------------------------*/
 /* メインイメージ */
-/*↓スマホ用の追加・変更デザイン↓*/
+/*↓タブレット用の追加・変更デザイン↓*/
 /*--------------------------------------------------*/
-@media screen and (max-width:767px)
+@media screen and (min-width:768px)
 {
-	.mainvisualenfont,
+	.sectionmainview
+	{
+		width: 100%;
+		margin: 0 auto;
+		background-image: url(../img/contents_top1.png);
+		background-position: 50% 55%;
+		background-repeat: no-repeat;
+		-moz-background-size: cover;
+		background-size: cover;
+		padding: 4vw 0;
+		padding: 160px 0 20px 0;
+	}
+
+	.mainvisual
+	{
+		color: #fff;
+		font-weight: bold;
+		vertical-align: middle;
+	}
+	.mainvisual a
+	{
+		color: #fff;
+	}
+
+	.mainvisualenfont
+	{
+		font-size: 2.0em;
+	}
+
 	.mainvisuallinefont
 	{
-		font-size: 1.8em;
+		font-size: 2.4em;
+		font-weight: normal;
+		vertical-align: -0.1em;
+		padding-right: 13px;
 	}
 
 	.mainvisualkanafont
 	{
-		font-size: 1.6em;
+		font-size: 2.0em;
 	}
 
 	.mainvisualnotefont
 	{
-		font-size: 0.9em;
+		font-size: 1.3em;
+		font-weight: normal;
+		padding-top: 5px;
+		padding-bottom: 5px;
 	}
 }
 
+
 /*--------------------------------------------------*/
 /* メインイメージ */
-/*↓スマホ用の追加・変更デザイン↓*/
+/*↓pc用の追加・変更デザイン↓*/
 /*--------------------------------------------------*/
-@media screen and (max-width:479px)
+@media screen and (min-width:920px)
 {
-	.mainvisualenfont,
+	.sectionmainview
+	{
+		width: 100%;
+		margin: 0 auto;
+		background-image: url(../img/contents_top1.png);
+		background-position: 50% 55%;
+		background-repeat: no-repeat;
+		-moz-background-size: cover;
+		background-size: cover;
+		padding: 4vw 0;
+		padding: 160px 0 20px 0;
+	}
+
+	.mainvisual
+	{
+		color: #fff;
+		font-weight: bold;
+		vertical-align: middle;
+	}
+	.mainvisual a
+	{
+		color: #fff;
+	}
+
+	.mainvisualenfont
+	{
+		font-size: 2.0em;
+	}
+
 	.mainvisuallinefont
 	{
-		font-size: 1.2em;
+		font-size: 2.4em;
+		font-weight: normal;
+		vertical-align: -0.1em;
+		padding-right: 13px;
 	}
 
 	.mainvisualkanafont
 	{
-		font-size: 1.0em;
+		font-size: 2.0em;
 	}
 
 	.mainvisualnotefont
 	{
-		font-size: 0.5em;
+		font-size: 1.3em;
+		font-weight: normal;
+		padding-top: 5px;
+		padding-bottom: 5px;
 	}
 }
 
@@ -1183,4 +1365,61 @@
 {
 	margin-top:16px;
 	padding:0 16px;
+	font-size: 0.7em;
+}
+
+/*--------------------------------------------------*/
+/* 口コミページ */
+/*↓タブレット用の追加・変更デザイン↓*/
+/*--------------------------------------------------*/
+@media screen and (min-width:768px)
+{
+	.voice_listbox
+	{
+		text-align:left;
+		margin:30px auto;
+		border-radius:4px;
+		padding:16px 24px;
+	}
+	.engineer
+	{
+		font-weight:bold;
+	}
+	.engineer img
+	{
+		padding: 0 10px 3px 0;
+	}
+	.voice
+	{
+		margin-top:16px;
+		padding:0 16px;
+	}
+}
+
+/*--------------------------------------------------*/
+/* 口コミページ */
+/*↓pc用の追加・変更デザイン↓*/
+/*--------------------------------------------------*/
+@media screen and (min-width:920px)
+{
+	.voice_listbox
+	{
+		text-align:left;
+		margin:30px auto;
+		border-radius:4px;
+		padding:16px 24px;
+	}
+	.engineer
+	{
+		font-weight:bold;
+	}
+	.engineer img
+	{
+		padding: 0 10px 3px 0;
+	}
+	.voice
+	{
+		margin-top:16px;
+		padding:0 16px;
+	}
 }

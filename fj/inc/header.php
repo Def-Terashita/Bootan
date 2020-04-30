@@ -62,7 +62,8 @@ if (isset ($_SESSION["name"])){
                         <div id="sp-title" ><a href="<?= Fj_Top ?>#navi"><img alt="Bootanのロゴ" src="<?= Fj_Img ?>Bootan横.png"></a></div>
                 	    <ul>
                 	        <li><a href="<?= Fj_Top ?>#searchbox">仕事を探す</a></li>
-                	        <li><a href="<?= Fj_Service ?>">初めての方へ</a></li>
+                            <li><a href="<?= Fj_Service ?>">サービス紹介</a></li>
+                            <li><a href="<?= Fj_Staff ?>">コーディネータ</a></li>
                 	        <li><a href="<?= Fj_FAQ ?>">FAQ</a></li>
                 	        <li><a href="<?= Fj_Voice ?>">口コミ</a></li>
                 	        <li><a href="<?= Fj_CorporateInfo ?>">会社概要</a></li>
