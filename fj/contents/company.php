@@ -112,8 +112,8 @@ if ($ret === FALSE)
 
                             <table  class="bg-white">
                             	<tr><th>社名</th><td>株式会社Def tribe（デフ　トライブ）</td></tr>
-                            	<tr><th>取締役社長</th><td>上岡 天志</td></tr>
-                            	<tr><th>代表取締役副社長</th><td>河野 浩明</td></tr>
+                            	<tr><th>代表取締役</th><td>河野 浩明</td></tr>
+                            	<tr><th>取締役</th><td>上岡 天志</td></tr>
                             	<tr><th>所在地</th><td>本社　〒542-0081　大阪市中央区南船場4丁目12番24号現代心斎橋ビル5階</td></tr>
                             	<tr><th>TEL</th><td>06-6643-9305</td></tr>
                             	<tr><th>従業員数</th><td>73名</td></tr>

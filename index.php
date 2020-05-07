@@ -140,7 +140,6 @@ if ($ret === FALSE)
                             <div class="search-clear-btn-wrap">
                                 <input type="button" value="検索条件をリセット" class="btn clear-btn bg-white color-black" onclick="allclear(false);">
                             </div>
-                            
 
                             <h4 style="text-align: left">エリア</h4>
                             <div style="text-align: left">
